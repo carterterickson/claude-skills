@@ -1,0 +1,250 @@
+{
+  "groups": [
+    {
+      "name": "Users",
+      "about": "Who it's for",
+      "roles": [
+        {
+          "name": "Future You",
+          "asks": "In 6 months, will I still understand this and want it?",
+          "judges": "Long-term personal fit: notes to self, motivation, whether the owner keeps using or working on it.",
+          "stays_out_of": "Other users. Speaks only for the owner."
+        },
+        {
+          "name": "Stranger",
+          "asks": "What do I do in the first 30 seconds?",
+          "judges": "First run: what the thing is for, where to start, what the first screen or README says.",
+          "stays_out_of": "Repeat use and advanced features."
+        },
+        {
+          "name": "Power User",
+          "asks": "What slows me down on the 100th use?",
+          "judges": "Repeat-use friction: extra clicks, missing shortcuts, bad defaults, slow loads.",
+          "stays_out_of": "First impressions and onboarding."
+        },
+        {
+          "name": "Access Checker",
+          "asks": "Who can't use this?",
+          "judges": "Small screens, color contrast, color-blind readers, slow connections, screen readers, non-experts.",
+          "stays_out_of": "Taste and visual style."
+        },
+        {
+          "name": "Quitter",
+          "asks": "At what exact moment do I give up?",
+          "judges": "The single biggest drop-off point. Names one moment and why it happens.",
+          "stays_out_of": "Everything after that moment. Lists one moment, not many."
+        },
+        {
+          "name": "Player/Fan",
+          "asks": "What part would I show a friend?",
+          "judges": "The hook: excitement, the moment that feels good, what makes it worth talking about.",
+          "stays_out_of": "Whether it's practical, cheap, or well built."
+        }
+      ]
+    },
+    {
+      "name": "Builders",
+      "about": "How it gets made",
+      "roles": [
+        {
+          "name": "Engineer",
+          "asks": "What's the simplest way to build this?",
+          "judges": "Implementation approach: stack, libraries, architecture, the shortest working path.",
+          "stays_out_of": "Removing features. That is the Scope Cutter's job."
+        },
+        {
+          "name": "Data Plumber",
+          "asks": "Where does the data come from, and what happens when it's wrong, missing, or late?",
+          "judges": "Sources, pipelines, refresh schedules, joins, data quality checks.",
+          "stays_out_of": "How the data is shown or modeled."
+        },
+        {
+          "name": "Maintainer",
+          "asks": "What breaks a year from now?",
+          "judges": "Decay over time: dependencies, API changes, upkeep hours, code that only works today.",
+          "stays_out_of": "Choices made today that can't be undone. That is the Carpenter's job."
+        },
+        {
+          "name": "Prototyper",
+          "asks": "What can we test this weekend?",
+          "judges": "The smallest experiment that answers the biggest unknown.",
+          "stays_out_of": "The finished version."
+        },
+        {
+          "name": "Automator",
+          "asks": "Which step is done by hand that a script should do?",
+          "judges": "Repeated manual work: data pulls, deploys, reports, testing, scheduling.",
+          "stays_out_of": "One-time tasks."
+        }
+      ]
+    },
+    {
+      "name": "Skeptics",
+      "about": "What goes wrong",
+      "roles": [
+        {
+          "name": "Scope Cutter",
+          "asks": "What can we delete?",
+          "judges": "Features, screens, sections, and steps to remove. Names each one.",
+          "stays_out_of": "How to build what's left."
+        },
+        {
+          "name": "Statistician",
+          "asks": "How do you know?",
+          "judges": "Evidence behind claims: sample size, noise vs signal, cherry-picking, what a chart or result actually shows.",
+          "stays_out_of": "Model training details. That is the Model Auditor's job."
+        },
+        {
+          "name": "Privacy Guard",
+          "asks": "What could leak or be abused?",
+          "judges": "API keys, personal data, logins, abuse by other users, data source terms of service and scraping rules.",
+          "stays_out_of": "Bugs that don't expose data or invite abuse."
+        },
+        {
+          "name": "Pre-mortem",
+          "asks": "It's a year later and this failed. What happened?",
+          "judges": "Tells one specific, believable failure story, start to finish.",
+          "stays_out_of": "Percentages and odds. That is the Odds Maker's job."
+        },
+        {
+          "name": "Model Auditor",
+          "asks": "Is the model fooling you?",
+          "judges": "Leakage, overfitting, validation setup, baselines. On projects with no model: any rule or formula that decides things, like rankings, matchmaking, recommendations, or game balance.",
+          "stays_out_of": "Claims made outside the model or formula."
+        }
+      ]
+    },
+    {
+      "name": "Value",
+      "about": "Is it worth it",
+      "roles": [
+        {
+          "name": "Product Manager",
+          "asks": "Which one problem does this solve, and for whom?",
+          "judges": "Picks the single problem. Rejects side goals.",
+          "stays_out_of": "Hours and odds."
+        },
+        {
+          "name": "Time Accountant",
+          "asks": "How many hours does it cost, and how many does it save or earn?",
+          "judges": "Time math with numbers: build hours, upkeep hours, hours saved.",
+          "stays_out_of": "Which problem to solve."
+        },
+        {
+          "name": "Marketer",
+          "asks": "How would anyone hear about this?",
+          "judges": "The one-line pitch and where it gets shared, including a portfolio, LinkedIn, or a friend group.",
+          "stays_out_of": "Whether the product is good."
+        },
+        {
+          "name": "Competitor Scout",
+          "asks": "What already exists, and why use yours?",
+          "judges": "Alternatives, including a spreadsheet, an existing app, or doing nothing.",
+          "stays_out_of": "How to market the difference."
+        },
+        {
+          "name": "Odds Maker",
+          "asks": "What are the odds this works?",
+          "judges": "Defines success in one line, gives one percentage, and names the biggest swing factor.",
+          "stays_out_of": "Failure stories. That is the Pre-mortem's job."
+        },
+        {
+          "name": "Teacher",
+          "asks": "What will you learn, and could you explain it in an interview?",
+          "judges": "Skill growth, portfolio value, whether the owner can explain each choice.",
+          "stays_out_of": "Whether anyone else uses it."
+        }
+      ]
+    },
+    {
+      "name": "Craft",
+      "about": "How it feels",
+      "roles": [
+        {
+          "name": "Game Designer",
+          "asks": "What makes this fun to repeat?",
+          "judges": "Reward, progression, challenge, and pacing from the user's side.",
+          "stays_out_of": "How internal parts affect each other. That is the Systems Thinker's job."
+        },
+        {
+          "name": "Visual Designer",
+          "asks": "Where does the eye land first?",
+          "judges": "Hierarchy, layout, spacing, color, density.",
+          "stays_out_of": "Words and labels."
+        },
+        {
+          "name": "Editor",
+          "asks": "Is every word earning its place?",
+          "judges": "Labels, copy, names, README, error messages, commit and file names.",
+          "stays_out_of": "Layout and color."
+        },
+        {
+          "name": "Data Storyteller",
+          "asks": "What's the one takeaway?",
+          "judges": "The headline number, chart choice, framing, what to show first.",
+          "stays_out_of": "Whether the number is statistically sound. That is the Statistician's job."
+        },
+        {
+          "name": "Systems Thinker",
+          "asks": "How do the parts push on each other?",
+          "judges": "Side effects between components, people, or rules. Bottlenecks and loops.",
+          "stays_out_of": "The user's moment-to-moment experience."
+        }
+      ]
+    },
+    {
+      "name": "Wildcards",
+      "about": "Outsiders",
+      "roles": [
+        {
+          "name": "Coach",
+          "asks": "What's the game plan, and how do you practice it?",
+          "judges": "Build cadence: sessions, reps, small wins, a weekly rhythm.",
+          "stays_out_of": "What the product does."
+        },
+        {
+          "name": "Scout",
+          "asks": "What's the underrated strength nobody uses?",
+          "judges": "Strengths only. Finds one hidden asset to lean on harder.",
+          "stays_out_of": "Weaknesses. The only member who doesn't criticize the subject."
+        },
+        {
+          "name": "Referee",
+          "asks": "Are the rules clear and the same every time?",
+          "judges": "Consistency and fairness: scoring, permissions, game rules, naming, edge-case rulings.",
+          "stays_out_of": "Whether the rules are fun."
+        },
+        {
+          "name": "Dungeon Master",
+          "asks": "What does the player choose, and what happens when they go off-script?",
+          "judges": "User choices, branching, and paths the owner didn't plan for.",
+          "stays_out_of": "Exploits and bugs. That is the Speedrunner's job."
+        },
+        {
+          "name": "Speedrunner",
+          "asks": "How do I break or skip this?",
+          "judges": "Exploits, weird inputs, skipped steps, broken flows.",
+          "stays_out_of": "Data leaks and abuse. That is the Privacy Guard's job."
+        },
+        {
+          "name": "Carpenter",
+          "asks": "Which decision is hard to undo?",
+          "judges": "Foundations: data model, schema, stack, file structure, names. One-way doors.",
+          "stays_out_of": "Slow decay over time. That is the Maintainer's job."
+        },
+        {
+          "name": "Mechanic",
+          "asks": "What's the symptom, and which part do you check first?",
+          "judges": "Diagnosis order for the biggest current problem.",
+          "stays_out_of": "New features."
+        },
+        {
+          "name": "Chef",
+          "asks": "What's prepped ahead, and what's the signature dish?",
+          "judges": "The one standout feature and the prep work that makes it reliable.",
+          "stays_out_of": "The rest of the menu."
+        }
+      ]
+    }
+  ]
+}
