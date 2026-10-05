@@ -1,0 +1,47 @@
+{
+  "template_only": true,
+  "schema_version": 1,
+  "revision": 0,
+  "project_id": null,
+  "task_id": null,
+  "phase_id": null,
+  "status": "planning",
+  "updated_at": null,
+  "project_policy_ref": null,
+  "workspace": {
+    "kind": null,
+    "portable_checkout_id": null,
+    "device_binding_ref": null,
+    "base_commit": null,
+    "branch": null,
+    "baseline_manifest_ref": null,
+    "baseline_fingerprint": null,
+    "candidate_manifest_ref": null,
+    "candidate_fingerprint": null,
+    "preexisting_changes_ref": null
+  },
+  "ownership": {
+    "device_local_owner_ref": null,
+    "fencing_generation": null,
+    "quiescence_evidence_ref": null,
+    "released_for_handoff": false
+  },
+  "roles": {
+    "host_coordinator_ref": null,
+    "task_lead_route_id": null,
+    "worker_route_ids": [],
+    "reviewer_route_ids": [],
+    "selection_decision_ref": null
+  },
+  "authorization_refs": [],
+  "required_acceptance": [],
+  "active_assignments": [],
+  "accepted_results": [],
+  "unreviewed_results": [],
+  "decisions_ref": null,
+  "verification_refs": [],
+  "usage_refs": [],
+  "pending_decisions": [],
+  "blockers": [],
+  "next_action": null
+}

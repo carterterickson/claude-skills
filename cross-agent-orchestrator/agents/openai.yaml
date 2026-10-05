@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cross-Agent Orchestrator"
+  short_description: "Plan, build and resume across Claude Code and Codex"
+  default_prompt: "Use $cross-agent-orchestrator to continue this project and select a suitable planner, worker and review process."
+policy:
+  allow_implicit_invocation: true
